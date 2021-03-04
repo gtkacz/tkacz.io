@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'americanamedium';
+  src: url('americanatest-webfont.woff2') format('woff2'),
+       url('americanatest-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -46,7 +55,7 @@ html, body {
 
 body {
   background: #000010;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'americanamedium', sans-serif;
   color: #fff;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
@@ -85,7 +94,7 @@ h1::after {
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'americanamedium', sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {
